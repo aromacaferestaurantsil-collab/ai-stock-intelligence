@@ -1,0 +1,23 @@
+{
+  "name": "@asi/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@asi/shared": "workspace:*",
+    "expo": "~52.0.25",
+    "expo-router": "~4.0.16",
+    "react": "18.3.1",
+    "react-native": "0.76.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/react": "~18.3.12"
+  }
+}
