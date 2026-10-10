@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "AI Stock Intelligence",
+    "slug": "ai-stock-intelligence",
+    "scheme": "aistockintelligence",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.aromacaferestaurantsil.stockintelligence"
+    }
+  }
+}
